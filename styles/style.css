@@ -1,0 +1,229 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+}
+
+.header {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-left: 10%;
+}
+.heading {
+  font-size: 45px;
+  font-weight: 700;
+}
+.heading-link a {
+  text-decoration: none;
+  margin-left: 30px;
+  color: black;
+}
+.banner {
+  text-align: center;
+}
+.banner-heading {
+  font-size: 64px;
+  font-weight: 700;
+}
+.banner-btn {
+  background-color: orangered;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  width: 180px;
+  height: 64px;
+  margin: 20px 0 50px 0;
+}
+.banner img {
+  width: 1240px;
+  height: 700px;
+  margin-bottom: 32px;
+}
+/* heading done --------------- end -------------------*/
+
+.team-work {
+  width: 90%;
+  margin-left: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin-top: 70px;
+}
+.team-img {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.quick-list {
+  margin-left: 73px;
+}
+.ql {
+  color: gray;
+  font-weight: 500;
+}
+
+.f {
+  color: orangered;
+}
+/* section-01 done ------------------- end ---------------------- */
+
+.all-feature {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  margin: 120px 0;
+}
+.feature-heading {
+  padding-left: 30px;
+  font-size: 45px;
+  font-weight: 700;
+  border-left: 5px solid orangered;
+}
+.all-feature-list {
+  box-shadow: 2px 2px 2px gray;
+  padding: 30px 42px 30px 30px;
+  margin: 20px 0;
+}
+.experience-btn {
+  width: 150px;
+  height: 90px;
+  background-color: orangered;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  color: white;
+  margin-top: -40px;
+  margin-left: -20px;
+}
+.exp-btn-h {
+  font-size: 25px;
+}
+.exp-btn {
+  font-size: 16px;
+}
+/* section-02 done ---------------- end --------------------- */
+
+.fact-heading {
+  font-size: 45px;
+  font-weight: 700;
+}
+.all-fact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px 0;
+}
+.all-fact :hover {
+  background-color: skyblue;
+}
+.fact-icon {
+  width: 130px;
+  height: 100px;
+  text-align: center;
+  padding: 40px;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+}
+/* section-03 done ------------------ end --------------- */
+.sponsor {
+  text-align: center;
+  margin-top: 100px;
+}
+.sponsor-heading {
+  font-size: 45px;
+  font-weight: 700;
+}
+.sponsor-companies {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px 0;
+}
+/* section-04 done -------------------- end ----------------- */
+
+.flexible_container {
+  display: flex;
+  margin: 100px 0;
+}
+.text {
+  text-align: center;
+  width: 100%;
+}
+.subscriber {
+  width: 90%;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding: 1%;
+  border-radius: 15px;
+  box-shadow: 10px 10px 30px gray;
+}
+/* section-05 done ------------------- end ------------------ */
+
+.footer {
+  text-align: center;
+  height: 100px;
+  color: white;
+  background-color: black;
+  padding-top: 10px;
+}
+/* footer done ------------- end -------------------- */
+
+@media only screen and (max-width: 576px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .heading-link {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner {
+    text-align: center;
+    width: 100%;
+  }
+  .banner img {
+    width: 100%;
+  }
+  .team-work {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .team-img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .all-feature {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .some-fact {
+    text-align: center;
+  }
+  .fact {
+    text-align: center;
+  }
+  .all-fact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sponsor {
+    text-align: center;
+  }
+  .sponsor-companies {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+  }
+}
